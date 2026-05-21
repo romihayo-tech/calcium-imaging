@@ -1,0 +1,28 @@
+# Calcium analysis base requirements
+#
+# IMPORTANT FOR THE JUPYTERLAB SERVER:
+# Do NOT run `pip install -r requirements.txt` in /opt/conda unless you know
+# exactly what will be changed. The old rois.pkl files currently load with
+# pandas 1.3.5, and a normal Streamlit install tries to upgrade pandas.
+#
+# Safe Streamlit install on the shared server:
+#   /opt/conda/bin/python -m pip install streamlit --no-deps
+#
+# Then verify:
+#   /opt/conda/bin/python -c "import pandas as pd; print(pd.__version__)"
+#
+# It should remain:
+#   1.3.5
+
+numpy
+pandas==1.3.5
+scipy
+scikit-learn
+matplotlib
+
+# Streamlit is intentionally not listed here because recent Streamlit wheels
+# declare pandas>=1.4 and pip will try to upgrade pandas to 2.x.
+# Install it separately with --no-deps as shown above.
+
+# Lab-specific dependency, not usually installed from pip:
+# islets
