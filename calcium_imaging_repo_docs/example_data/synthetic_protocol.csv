@@ -1,0 +1,6 @@
+exp_name,compound,concentration,t_begin,t_end
+synthetic_WT_01,Glucose,6mM,0,300
+synthetic_WT_01,Glucose,8mM,300,600
+synthetic_WT_01,ACh,1nM,600,900
+synthetic_WT_01,ACh,10nM,900,1200
+synthetic_WT_01,ACh,100nM,1200,1800

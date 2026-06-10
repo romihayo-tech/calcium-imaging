@@ -1,0 +1,7 @@
+genotype,exp_name,roi,scope,event_rate_8mM,event_rate_ACh,halfwidth_ACh,latency_ACh_s,cv_dt_ACh,cell_type
+WT,synthetic_WT_01,1,lif,0.4,2.5,0.18,14.2,0.86,Phasic
+WT,synthetic_WT_01,2,lif,0.7,3.1,4.2,16.5,0.97,Sustained
+HET,synthetic_HET_01,1,nd2,0.3,2.1,0.2,15.0,0.83,Phasic
+HET,synthetic_HET_01,2,nd2,0.6,3.4,3.7,12.0,0.98,Sustained
+MUT,synthetic_MUT_01,1,lif,0.2,1.4,0.24,25.0,0.8,Phasic
+MUT,synthetic_MUT_01,2,lif,0.5,2.8,3.4,23.0,0.88,Sustained
